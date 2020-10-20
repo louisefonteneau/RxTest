@@ -1,0 +1,28 @@
+PODS:
+  - Caishen (2.2.1)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - SwiftLint (0.40.1)
+
+DEPENDENCIES:
+  - Caishen
+  - Reusable
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Caishen
+    - Reusable
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Caishen: 903d1d567b010b28217acd38e438b5917623cfef
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  SwiftLint: bbfed21bf4451dcbd0f5cdbee44a18e06cf91b12
+
+PODFILE CHECKSUM: 881a4884a50ef097c0e80aa5732d6df0a2f74a23
+
+COCOAPODS: 1.9.3

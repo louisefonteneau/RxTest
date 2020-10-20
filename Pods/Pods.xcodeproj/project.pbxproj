@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		012033551725C2F01A197D053D78A748 /* CardValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C22DCEE4ED96C8E060013B65AC649 /* CardValidationResult.swift */; };
+		02A58C42CAF68BBBE9F8F4E858936D69 /* Caishen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A228C677351A7F9FADCE5D696A0C4C8 /* Caishen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC4F929A53DFA2752DF801C4556E496 /* CharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E2A378058143158D321BD93668C118 /* CharacterExtension.swift */; };
+		0D59D080978F86C7EBA728D2DC11B3A9 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8953D884A09103468350CC8F77C8E6A /* UITableView+Reusable.swift */; };
+		0E5559528AEBBEE43E851F5A3058C383 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF4CB3A3F77E638D0F82CA08E2FBB93 /* Media.xcassets */; };
+		123C614C89A52F61D2ED963763296676 /* CardTypeImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F763F74DA0BF8C743693576A181D110 /* CardTypeImageStore.swift */; };
+		1C41ACFB7E9D0A066C14BE36BF960B54 /* MonthInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70487AC20873EE282D1B3DCADA87E23E /* MonthInputTextField.swift */; };
+		1CC1A8B9F9CE2B036457396EA469785D /* YearInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A3F9CCFE08D6243A9E42B1FCC3685 /* YearInputTextField.swift */; };
+		2220BB7369ACCB812C7F44C2D0A83E44 /* Reusable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A1A1BCEF4F352324057F9F67E77FA2 /* Reusable-dummy.m */; };
+		278C064EDDB595AB34A0B1CED974322A /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29236A30EB8D6F44E30F050E3C8D60F2 /* CardType.swift */; };
+		30789168C98BA343ED77F7A1A78E271E /* CardTextField+PrefillInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22352097D0CEB1AE0B7B690695AECD5 /* CardTextField+PrefillInformation.swift */; };
+		3165A76FAD50131D7524CD3E8DA54C15 /* CardTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CB2DC3C4E60F385C7FF919E0E2555 /* CardTextField.swift */; };
+		38162C649E54FF6AAD58CCBD16647255 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8812362802C19D748D66F46C9EBD9 /* Localization.swift */; };
+		3BD7D9D61C6380F99F4994EC44D7F4DE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04256DD285256E73C289EA11CF126435 /* StringExtension.swift */; };
+		45ED087737B0389E0A114182AE58EA90 /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC704186E00179A9B6ED1672852AD316 /* UICollectionView+Reusable.swift */; };
+		47FA78DE578B152205A696E8F739C896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		48FCFD239F1521852699F63C0F073A71 /* DinersClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F556E40982EDA053D2DD3879F5893 /* DinersClub.swift */; };
+		4E2F812F6F758FCD5DAFFEAA4A1478FE /* Expiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDC17877A1B925A4AF64AF166E9741 /* Expiry.swift */; };
+		50EEDAD4ECC0BDDF23FBB27648D6A7FA /* CardView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 553FFA61D744D16106640D8D0CC31B9F /* CardView.xib */; };
+		51DF72EBDA2583D69CCA0954BF8A7D7B /* Reusable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08FD69150866672D90F1FB143A98FF7D /* Reusable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DF8EBA4704F40CB5E1892B6A853921 /* CVCInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ECB6F0CC85B7DB5839181AB85F78AB /* CVCInputTextField.swift */; };
+		59CF770016A9C695E5FEA6B4289DF3BE /* Pods-RxTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ED1145ACE3C1F74B95E1281AD0A4D2 /* Pods-RxTest-dummy.m */; };
+		5A099A9A2B53D617150DA84B7CF3B3EA /* CardTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B7E90AE4504F9BD18D5CBEFC68FD7 /* CardTextFieldDelegate.swift */; };
+		66482E843E7E149594672BB7EC0BDB8F /* CardTextField+InterfaceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A35F81E3D9DB4DFF76A3CD960C2E9 /* CardTextField+InterfaceBuilder.swift */; };
+		6AC0DE2F73321AE6B1FFA714DB07CA93 /* CardInfoTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF39B40880D99CB994E4BAC10B8BE0B /* CardInfoTextFieldDelegate.swift */; };
+		6E6B668F0D3D34D20806A891C37F053A /* CardTypeRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4381C265F28E4F9B38CA9ADB0F6A81 /* CardTypeRegister.swift */; };
+		6F94A9BECCFC97E0AA3C5DDDAD458993 /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A41321774038CB650525FEA1B2CB1 /* NibOwnerLoadable.swift */; };
+		712DEFCF72D36D76C414BB61FBC02FD3 /* DetailInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4DDBB00F93769155D3A236EEF8C405 /* DetailInputTextField.swift */; };
+		7348687D90334F9077EB329B77FFEDBD /* Visa.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE69EFD4B1B773984A3DD85B7C0ABB /* Visa.swift */; };
+		7930EB47FB8A709C62E092F25B51E3BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7C54DC19FD4A401493A2CB2303C6AFBC /* AmericanExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B1A01E09F464728E375F8D940A52C /* AmericanExpress.swift */; };
+		822D9F9B0F62A1D11F8112FAA36DF430 /* UnknownCardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BCE1A02B292DDC6704CB6E6CAA5CA4 /* UnknownCardType.swift */; };
+		855F5B2219B7C339B734FBB52F46D672 /* StylizedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1698FB86543EEE264578047690AD802B /* StylizedTextField.swift */; };
+		8D031EE541FA742DA6EBF9CD49B92CFD /* TextFieldValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D21077CF4D6C3327D8EE5A89FFFE /* TextFieldValidation.swift */; };
+		90BA9F6E75501267709573D2BF6CA959 /* CardTextField+CardInfoTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF043EE6031DC7EF066F57545B779B78 /* CardTextField+CardInfoTextFieldDelegate.swift */; };
+		913CB3774C4AC18AC1D07E181129D149 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CCB6F5BBA7C36165A3370D317995E980 /* zh-Hans.lproj */; };
+		918981541010C14D97BD013D4C5F6B6D /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76F59DA8E4499FD121C651ECEC47AA /* Number.swift */; };
+		9E2CA4DB9FD617A641733C5045BD32D8 /* StoryboardBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D343DF68C6663D45FA304336DE858 /* StoryboardBased.swift */; };
+		A908B5D982469F4E6612F2FD00F2D515 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2DA7DC11CA32934C69890F9542D723F9 /* de.lproj */; };
+		AB75298A1016565EAB18C81AA9EAF105 /* StoryboardSceneBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC90CD845C93A349E573D718ED700FF /* StoryboardSceneBased.swift */; };
+		B1377677CD2FE4751CC5290120438DC0 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F7CAC94E8F6D63AB63E11CEDC13C19 /* UITextField+Extensions.swift */; };
+		C4B25C532FFBDC292B2C6AB7E8B50034 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80640898471F936CDED488557F2C8AF2 /* Reusable.swift */; };
+		C74344312EAFA7EF511DBC6AE16AB3CC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201B106C9EFDAC981BDE959B855293F /* Card.swift */; };
+		CD0F2720A96458121E477289CA70A221 /* Caishen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 317C797DE8C96CE9E0913B15A6916D5E /* Caishen-dummy.m */; };
+		D2EB18345CE8721595D28705F335B217 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		D55E5560DF3708595B136C1CED4D388D /* JCB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62064CFE8DC423066961818A6C0D10B0 /* JCB.swift */; };
+		D5C2F995C60BB3D02A58A7A19450D1CA /* CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A593337132709C15C9B355057DC2B422 /* CVC.swift */; };
+		D78C431ED074455B2B5DE0BD96D3E3F5 /* ChinaUnionPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56938EF8A54FBA79180A06F2A0050295 /* ChinaUnionPay.swift */; };
+		D871FE56296BAC76E9980A55B2884BA7 /* Pods-RxTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDC6E15387280636B97F6CF104679B7 /* Pods-RxTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC8E3241AF256F89585A1314933C97F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E7561B8487D949512779D9D678DAB395 /* AutoCompletingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E2C3621A5A083D51811178FF09C4BE /* AutoCompletingTextField.swift */; };
+		E80CF919F9CC57025E93A13E9A868A53 /* MasterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBC2783BA4DF1B77666D6B5459553B /* MasterCard.swift */; };
+		EE0865A620B9D3D36515646DF935F992 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4470C60D2A781596B04593C0AABCB5 /* NibLoadable.swift */; };
+		EEB5B2F1C2C11304F289F4D71F4FFA88 /* CardNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D85CEC9B9616921C09344CB682C34D /* CardNumberFormatter.swift */; };
+		F07816B015F6BAF6E82EF2096DB05E8D /* CardTextField+ViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE31385C5D401B5F1BC5C94E4CDEF1F /* CardTextField+ViewAnimations.swift */; };
+		F12BD80AD1317E88CD9361216F73A326 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F2E4AFECB14A9B8FF369CF01FC6523 /* Discover.swift */; };
+		F83556D1F1B9B3E6C25DE5EFC84F8AC1 /* NumberInputTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DCE1C3E42B86C95C235D7C0ED8118E /* NumberInputTextFieldDelegate.swift */; };
+		FEB59C0511460C7B1DC500618CB44F84 /* NumberInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C74B6B75671802674B78353471EEC3 /* NumberInputTextField.swift */; };
+		FFD1132DB6BFE229E9C9DDFD52E83FAE /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 60B3938F455CC000506D7AD2A481CEF6 /* en.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70388ECE11155BE278CF68E422169CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EA78C71A58774F0212466C4E0648E1F;
+			remoteInfo = Caishen;
+		};
+		85997053C078BB12749E89292385025A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542460E7CDF2A9D5B2ECB5F8CE549E34;
+			remoteInfo = Reusable;
+		};
+		B6CAB5AED89B02E74F6CC04A390BABD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04256DD285256E73C289EA11CF126435 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Pod/Classes/StringExtension.swift; sourceTree = "<group>"; };
+		050C22DCEE4ED96C8E060013B65AC649 /* CardValidationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardValidationResult.swift; path = Pod/Classes/Validation/CardValidationResult.swift; sourceTree = "<group>"; };
+		0675B08416D42A5BAC4E0C13B54A8FA2 /* Pods-RxTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxTest-Info.plist"; sourceTree = "<group>"; };
+		08FD69150866672D90F1FB143A98FF7D /* Reusable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reusable-umbrella.h"; sourceTree = "<group>"; };
+		0F1A35F81E3D9DB4DFF76A3CD960C2E9 /* CardTextField+InterfaceBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CardTextField+InterfaceBuilder.swift"; path = "Pod/Classes/UI/CardTextField+InterfaceBuilder.swift"; sourceTree = "<group>"; };
+		0F368177D355F3A2B1F2E2244B6BAADD /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		0F7D343DF68C6663D45FA304336DE858 /* StoryboardBased.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardBased.swift; path = Sources/Storyboard/StoryboardBased.swift; sourceTree = "<group>"; };
+		1215C192EABF5B497257CF3D171A9ECA /* Caishen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Caishen.framework; path = Caishen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E2A378058143158D321BD93668C118 /* CharacterExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExtension.swift; path = Pod/Classes/CharacterExtension.swift; sourceTree = "<group>"; };
+		1698FB86543EEE264578047690AD802B /* StylizedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StylizedTextField.swift; path = Pod/Classes/UI/StylizedTextField.swift; sourceTree = "<group>"; };
+		179CB2DC3C4E60F385C7FF919E0E2555 /* CardTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTextField.swift; path = Pod/Classes/UI/CardTextField.swift; sourceTree = "<group>"; };
+		19DCE1C3E42B86C95C235D7C0ED8118E /* NumberInputTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberInputTextFieldDelegate.swift; path = Pod/Classes/UI/NumberInputTextFieldDelegate.swift; sourceTree = "<group>"; };
+		1ACD42EB5F249FE9A5C7982F49084F63 /* Pods-RxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxTest.release.xcconfig"; sourceTree = "<group>"; };
+		21F2E4AFECB14A9B8FF369CF01FC6523 /* Discover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Discover.swift; path = "Pod/Classes/Cards/Default Card Types/Discover.swift"; sourceTree = "<group>"; };
+		26A1A1BCEF4F352324057F9F67E77FA2 /* Reusable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reusable-dummy.m"; sourceTree = "<group>"; };
+		29236A30EB8D6F44E30F050E3C8D60F2 /* CardType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardType.swift; path = Pod/Classes/Cards/CardType.swift; sourceTree = "<group>"; };
+		2DA7DC11CA32934C69890F9542D723F9 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = Pod/Resources/de.lproj; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		317C797DE8C96CE9E0913B15A6916D5E /* Caishen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Caishen-dummy.m"; sourceTree = "<group>"; };
+		339AF92B6C34300EF532F1F36D72F6F2 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		368B9CA14463D3788B022BFCA5BAB146 /* Pods-RxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3A76F59DA8E4499FD121C651ECEC47AA /* Number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Number.swift; path = Pod/Classes/Cards/Number.swift; sourceTree = "<group>"; };
+		3FEE95F4D62EA49281C6AE5AA9238663 /* Caishen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Caishen-prefix.pch"; sourceTree = "<group>"; };
+		42E2C3621A5A083D51811178FF09C4BE /* AutoCompletingTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoCompletingTextField.swift; path = "Pod/Classes/UI/Text Fields/Protocols/AutoCompletingTextField.swift"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		440A41321774038CB650525FEA1B2CB1 /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibOwnerLoadable.swift; path = Sources/View/NibOwnerLoadable.swift; sourceTree = "<group>"; };
+		45ECB6F0CC85B7DB5839181AB85F78AB /* CVCInputTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCInputTextField.swift; path = "Pod/Classes/UI/Text Fields/CVCInputTextField.swift"; sourceTree = "<group>"; };
+		4FF39B40880D99CB994E4BAC10B8BE0B /* CardInfoTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardInfoTextFieldDelegate.swift; path = "Pod/Classes/UI/Text Fields/Delegates/CardInfoTextFieldDelegate.swift"; sourceTree = "<group>"; };
+		553FFA61D744D16106640D8D0CC31B9F /* CardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CardView.xib; path = Pod/Classes/UI/CardView.xib; sourceTree = "<group>"; };
+		55CBC2783BA4DF1B77666D6B5459553B /* MasterCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MasterCard.swift; path = "Pod/Classes/Cards/Default Card Types/MasterCard.swift"; sourceTree = "<group>"; };
+		56938EF8A54FBA79180A06F2A0050295 /* ChinaUnionPay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChinaUnionPay.swift; path = "Pod/Classes/Cards/Default Card Types/ChinaUnionPay.swift"; sourceTree = "<group>"; };
+		589C52FB9A2CA2CA2DBD5A3FFA346D20 /* Caishen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Caishen-Info.plist"; sourceTree = "<group>"; };
+		58D85CEC9B9616921C09344CB682C34D /* CardNumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardNumberFormatter.swift; path = Pod/Classes/Format/CardNumberFormatter.swift; sourceTree = "<group>"; };
+		5F763F74DA0BF8C743693576A181D110 /* CardTypeImageStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTypeImageStore.swift; path = Pod/Classes/UI/CardTypeImageStore.swift; sourceTree = "<group>"; };
+		60B3938F455CC000506D7AD2A481CEF6 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Pod/Resources/en.lproj; sourceTree = "<group>"; };
+		62064CFE8DC423066961818A6C0D10B0 /* JCB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCB.swift; path = "Pod/Classes/Cards/Default Card Types/JCB.swift"; sourceTree = "<group>"; };
+		68399CAB9F54072A7ED97522D9807F89 /* Pods-RxTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxTest-frameworks.sh"; sourceTree = "<group>"; };
+		6A4381C265F28E4F9B38CA9ADB0F6A81 /* CardTypeRegister.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTypeRegister.swift; path = Pod/Classes/Cards/CardTypeRegister.swift; sourceTree = "<group>"; };
+		70487AC20873EE282D1B3DCADA87E23E /* MonthInputTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthInputTextField.swift; path = "Pod/Classes/UI/Text Fields/MonthInputTextField.swift"; sourceTree = "<group>"; };
+		7265492CE8CA5BE24AA43A78C342DE50 /* Caishen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Caishen.debug.xcconfig; sourceTree = "<group>"; };
+		769B1A01E09F464728E375F8D940A52C /* AmericanExpress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmericanExpress.swift; path = "Pod/Classes/Cards/Default Card Types/AmericanExpress.swift"; sourceTree = "<group>"; };
+		7AE8812362802C19D748D66F46C9EBD9 /* Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localization.swift; path = Pod/Classes/Localization.swift; sourceTree = "<group>"; };
+		7B881481979A4417C3BC21B6761CB775 /* Reusable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reusable-prefix.pch"; sourceTree = "<group>"; };
+		80640898471F936CDED488557F2C8AF2 /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Sources/View/Reusable.swift; sourceTree = "<group>"; };
+		8201B106C9EFDAC981BDE959B855293F /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Pod/Classes/Cards/Card.swift; sourceTree = "<group>"; };
+		8A228C677351A7F9FADCE5D696A0C4C8 /* Caishen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Caishen-umbrella.h"; sourceTree = "<group>"; };
+		8E5CEC4C9295B28F68D8FB1B032526D4 /* Pods-RxTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxTest.modulemap"; sourceTree = "<group>"; };
+		8FDDC17877A1B925A4AF64AF166E9741 /* Expiry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expiry.swift; path = Pod/Classes/Cards/Expiry.swift; sourceTree = "<group>"; };
+		935BC759924A8F704A41DFF9D0EE60EC /* Reusable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reusable-Info.plist"; sourceTree = "<group>"; };
+		9A80D21077CF4D6C3327D8EE5A89FFFE /* TextFieldValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldValidation.swift; path = "Pod/Classes/UI/Text Fields/Protocols/TextFieldValidation.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0ABA07B4D48354ED3F51C2D6AF5426B /* Reusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reusable.framework; path = Reusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22352097D0CEB1AE0B7B690695AECD5 /* CardTextField+PrefillInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CardTextField+PrefillInformation.swift"; path = "Pod/Classes/UI/CardTextField+PrefillInformation.swift"; sourceTree = "<group>"; };
+		A370FDB6A89EE610E8C78D65A3D6F8C6 /* Pods-RxTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		A593337132709C15C9B355057DC2B422 /* CVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVC.swift; path = Pod/Classes/Cards/CVC.swift; sourceTree = "<group>"; };
+		A8953D884A09103468350CC8F77C8E6A /* UITableView+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Reusable.swift"; path = "Sources/View/UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		A9E6B79A0328F0946FE4EF56B1A6B293 /* Reusable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reusable.release.xcconfig; sourceTree = "<group>"; };
+		AC704186E00179A9B6ED1672852AD316 /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Reusable.swift"; path = "Sources/View/UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		ACE31385C5D401B5F1BC5C94E4CDEF1F /* CardTextField+ViewAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CardTextField+ViewAnimations.swift"; path = "Pod/Classes/UI/CardTextField+ViewAnimations.swift"; sourceTree = "<group>"; };
+		B291455EB23DA8F8912E4FFD0BC7F423 /* Reusable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reusable.modulemap; sourceTree = "<group>"; };
+		B96A3F9CCFE08D6243A9E42B1FCC3685 /* YearInputTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YearInputTextField.swift; path = "Pod/Classes/UI/Text Fields/YearInputTextField.swift"; sourceTree = "<group>"; };
+		BC4470C60D2A781596B04593C0AABCB5 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoadable.swift; path = Sources/View/NibLoadable.swift; sourceTree = "<group>"; };
+		BC4DDBB00F93769155D3A236EEF8C405 /* DetailInputTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailInputTextField.swift; path = "Pod/Classes/UI/Text Fields/DetailInputTextField.swift"; sourceTree = "<group>"; };
+		BDDE69EFD4B1B773984A3DD85B7C0ABB /* Visa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visa.swift; path = "Pod/Classes/Cards/Default Card Types/Visa.swift"; sourceTree = "<group>"; };
+		BEDC6E15387280636B97F6CF104679B7 /* Pods-RxTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxTest-umbrella.h"; sourceTree = "<group>"; };
+		BEF4CB3A3F77E638D0F82CA08E2FBB93 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Pod/Assets/Media.xcassets; sourceTree = "<group>"; };
+		BF043EE6031DC7EF066F57545B779B78 /* CardTextField+CardInfoTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CardTextField+CardInfoTextFieldDelegate.swift"; path = "Pod/Classes/UI/CardTextField+CardInfoTextFieldDelegate.swift"; sourceTree = "<group>"; };
+		C7D6C8E70B5FA70EB4878414B1C9E061 /* Pods_RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RxTest.framework; path = "Pods-RxTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC90CD845C93A349E573D718ED700FF /* StoryboardSceneBased.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardSceneBased.swift; path = Sources/Storyboard/StoryboardSceneBased.swift; sourceTree = "<group>"; };
+		CCB6F5BBA7C36165A3370D317995E980 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Pod/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		D0F7CAC94E8F6D63AB63E11CEDC13C19 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Extensions.swift"; path = "Pod/Classes/UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		D5EF2CA371AF10CF5C984C49097B0A69 /* Caishen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Caishen.modulemap; sourceTree = "<group>"; };
+		E3A4CC4F4EC366B21FAA46E3B8ACB249 /* Pods-RxTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF6B7E90AE4504F9BD18D5CBEFC68FD7 /* CardTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTextFieldDelegate.swift; path = Pod/Classes/UI/CardTextFieldDelegate.swift; sourceTree = "<group>"; };
+		EFEF7B7CC0F895ACF31CABD1BE1C7D01 /* Reusable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reusable.debug.xcconfig; sourceTree = "<group>"; };
+		F1ED1145ACE3C1F74B95E1281AD0A4D2 /* Pods-RxTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RxTest-dummy.m"; sourceTree = "<group>"; };
+		F1FD2C6E118F00340319CC200D3A38C8 /* Caishen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Caishen.release.xcconfig; sourceTree = "<group>"; };
+		F3BCE1A02B292DDC6704CB6E6CAA5CA4 /* UnknownCardType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnknownCardType.swift; path = "Pod/Classes/Cards/Default Card Types/UnknownCardType.swift"; sourceTree = "<group>"; };
+		F52F556E40982EDA053D2DD3879F5893 /* DinersClub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DinersClub.swift; path = "Pod/Classes/Cards/Default Card Types/DinersClub.swift"; sourceTree = "<group>"; };
+		F6C74B6B75671802674B78353471EEC3 /* NumberInputTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberInputTextField.swift; path = Pod/Classes/UI/NumberInputTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F000C864D6E147C7AF292551FEB1751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8E3241AF256F89585A1314933C97F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE6DD853DA6F2B83A6CBD90D388D229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7930EB47FB8A709C62E092F25B51E3BC /* Foundation.framework in Frameworks */,
+				D2EB18345CE8721595D28705F335B217 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F25CD1501EBFFD709EED6ECD8CAE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FA78DE578B152205A696E8F739C896 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101E07D0BC4E008C27630BA0061D872D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B291455EB23DA8F8912E4FFD0BC7F423 /* Reusable.modulemap */,
+				26A1A1BCEF4F352324057F9F67E77FA2 /* Reusable-dummy.m */,
+				935BC759924A8F704A41DFF9D0EE60EC /* Reusable-Info.plist */,
+				7B881481979A4417C3BC21B6761CB775 /* Reusable-prefix.pch */,
+				08FD69150866672D90F1FB143A98FF7D /* Reusable-umbrella.h */,
+				EFEF7B7CC0F895ACF31CABD1BE1C7D01 /* Reusable.debug.xcconfig */,
+				A9E6B79A0328F0946FE4EF56B1A6B293 /* Reusable.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reusable";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32FF065B772B0F44B365D4D2A3E011B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC4470C60D2A781596B04593C0AABCB5 /* NibLoadable.swift */,
+				440A41321774038CB650525FEA1B2CB1 /* NibOwnerLoadable.swift */,
+				80640898471F936CDED488557F2C8AF2 /* Reusable.swift */,
+				AC704186E00179A9B6ED1672852AD316 /* UICollectionView+Reusable.swift */,
+				A8953D884A09103468350CC8F77C8E6A /* UITableView+Reusable.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5169661DB4950D719D8DF79F7E1B1AC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DA7DC11CA32934C69890F9542D723F9 /* de.lproj */,
+				60B3938F455CC000506D7AD2A481CEF6 /* en.lproj */,
+				BEF4CB3A3F77E638D0F82CA08E2FBB93 /* Media.xcassets */,
+				CCB6F5BBA7C36165A3370D317995E980 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		681C76D21C5FB5B607616E8DCD255702 /* Caishen */ = {
+			isa = PBXGroup;
+			children = (
+				769B1A01E09F464728E375F8D940A52C /* AmericanExpress.swift */,
+				42E2C3621A5A083D51811178FF09C4BE /* AutoCompletingTextField.swift */,
+				8201B106C9EFDAC981BDE959B855293F /* Card.swift */,
+				4FF39B40880D99CB994E4BAC10B8BE0B /* CardInfoTextFieldDelegate.swift */,
+				58D85CEC9B9616921C09344CB682C34D /* CardNumberFormatter.swift */,
+				179CB2DC3C4E60F385C7FF919E0E2555 /* CardTextField.swift */,
+				BF043EE6031DC7EF066F57545B779B78 /* CardTextField+CardInfoTextFieldDelegate.swift */,
+				0F1A35F81E3D9DB4DFF76A3CD960C2E9 /* CardTextField+InterfaceBuilder.swift */,
+				A22352097D0CEB1AE0B7B690695AECD5 /* CardTextField+PrefillInformation.swift */,
+				ACE31385C5D401B5F1BC5C94E4CDEF1F /* CardTextField+ViewAnimations.swift */,
+				EF6B7E90AE4504F9BD18D5CBEFC68FD7 /* CardTextFieldDelegate.swift */,
+				29236A30EB8D6F44E30F050E3C8D60F2 /* CardType.swift */,
+				5F763F74DA0BF8C743693576A181D110 /* CardTypeImageStore.swift */,
+				6A4381C265F28E4F9B38CA9ADB0F6A81 /* CardTypeRegister.swift */,
+				050C22DCEE4ED96C8E060013B65AC649 /* CardValidationResult.swift */,
+				553FFA61D744D16106640D8D0CC31B9F /* CardView.xib */,
+				14E2A378058143158D321BD93668C118 /* CharacterExtension.swift */,
+				56938EF8A54FBA79180A06F2A0050295 /* ChinaUnionPay.swift */,
+				A593337132709C15C9B355057DC2B422 /* CVC.swift */,
+				45ECB6F0CC85B7DB5839181AB85F78AB /* CVCInputTextField.swift */,
+				BC4DDBB00F93769155D3A236EEF8C405 /* DetailInputTextField.swift */,
+				F52F556E40982EDA053D2DD3879F5893 /* DinersClub.swift */,
+				21F2E4AFECB14A9B8FF369CF01FC6523 /* Discover.swift */,
+				8FDDC17877A1B925A4AF64AF166E9741 /* Expiry.swift */,
+				62064CFE8DC423066961818A6C0D10B0 /* JCB.swift */,
+				7AE8812362802C19D748D66F46C9EBD9 /* Localization.swift */,
+				55CBC2783BA4DF1B77666D6B5459553B /* MasterCard.swift */,
+				70487AC20873EE282D1B3DCADA87E23E /* MonthInputTextField.swift */,
+				3A76F59DA8E4499FD121C651ECEC47AA /* Number.swift */,
+				F6C74B6B75671802674B78353471EEC3 /* NumberInputTextField.swift */,
+				19DCE1C3E42B86C95C235D7C0ED8118E /* NumberInputTextFieldDelegate.swift */,
+				04256DD285256E73C289EA11CF126435 /* StringExtension.swift */,
+				1698FB86543EEE264578047690AD802B /* StylizedTextField.swift */,
+				9A80D21077CF4D6C3327D8EE5A89FFFE /* TextFieldValidation.swift */,
+				D0F7CAC94E8F6D63AB63E11CEDC13C19 /* UITextField+Extensions.swift */,
+				F3BCE1A02B292DDC6704CB6E6CAA5CA4 /* UnknownCardType.swift */,
+				BDDE69EFD4B1B773984A3DD85B7C0ABB /* Visa.swift */,
+				B96A3F9CCFE08D6243A9E42B1FCC3685 /* YearInputTextField.swift */,
+				5169661DB4950D719D8DF79F7E1B1AC5 /* Resources */,
+				C2B98B582A4FB316E8D6A521E55F7766 /* Support Files */,
+			);
+			name = Caishen;
+			path = Caishen;
+			sourceTree = "<group>";
+		};
+		83069745F351D786E2FA6D04DA583896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				681C76D21C5FB5B607616E8DCD255702 /* Caishen */,
+				FA2C1C22D46C2917FFE89CE3CEEDF45D /* Reusable */,
+				ACB816348DE3BC25C2444F3AE954E588 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85E032BBD6E22560666EDF7DAF9FFA01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1215C192EABF5B497257CF3D171A9ECA /* Caishen.framework */,
+				C7D6C8E70B5FA70EB4878414B1C9E061 /* Pods_RxTest.framework */,
+				A0ABA07B4D48354ED3F51C2D6AF5426B /* Reusable.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A623F394576DF68E06CB0D990C83F3E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E932D4B3E153C29DDC57D641A6C6F2BE /* Pods-RxTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A91A0C6FC5F8C7BEFDF97C0762D5E90F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0F7D343DF68C6663D45FA304336DE858 /* StoryboardBased.swift */,
+				CAC90CD845C93A349E573D718ED700FF /* StoryboardSceneBased.swift */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		ACB816348DE3BC25C2444F3AE954E588 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				C8F86DFF4965FE49887F49DF08EBC90B /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		C2B98B582A4FB316E8D6A521E55F7766 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5EF2CA371AF10CF5C984C49097B0A69 /* Caishen.modulemap */,
+				317C797DE8C96CE9E0913B15A6916D5E /* Caishen-dummy.m */,
+				589C52FB9A2CA2CA2DBD5A3FFA346D20 /* Caishen-Info.plist */,
+				3FEE95F4D62EA49281C6AE5AA9238663 /* Caishen-prefix.pch */,
+				8A228C677351A7F9FADCE5D696A0C4C8 /* Caishen-umbrella.h */,
+				7265492CE8CA5BE24AA43A78C342DE50 /* Caishen.debug.xcconfig */,
+				F1FD2C6E118F00340319CC200D3A38C8 /* Caishen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Caishen";
+			sourceTree = "<group>";
+		};
+		C8F86DFF4965FE49887F49DF08EBC90B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F368177D355F3A2B1F2E2244B6BAADD /* SwiftLint.debug.xcconfig */,
+				339AF92B6C34300EF532F1F36D72F6F2 /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				83069745F351D786E2FA6D04DA583896 /* Pods */,
+				85E032BBD6E22560666EDF7DAF9FFA01 /* Products */,
+				A623F394576DF68E06CB0D990C83F3E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E932D4B3E153C29DDC57D641A6C6F2BE /* Pods-RxTest */ = {
+			isa = PBXGroup;
+			children = (
+				8E5CEC4C9295B28F68D8FB1B032526D4 /* Pods-RxTest.modulemap */,
+				E3A4CC4F4EC366B21FAA46E3B8ACB249 /* Pods-RxTest-acknowledgements.markdown */,
+				A370FDB6A89EE610E8C78D65A3D6F8C6 /* Pods-RxTest-acknowledgements.plist */,
+				F1ED1145ACE3C1F74B95E1281AD0A4D2 /* Pods-RxTest-dummy.m */,
+				68399CAB9F54072A7ED97522D9807F89 /* Pods-RxTest-frameworks.sh */,
+				0675B08416D42A5BAC4E0C13B54A8FA2 /* Pods-RxTest-Info.plist */,
+				BEDC6E15387280636B97F6CF104679B7 /* Pods-RxTest-umbrella.h */,
+				368B9CA14463D3788B022BFCA5BAB146 /* Pods-RxTest.debug.xcconfig */,
+				1ACD42EB5F249FE9A5C7982F49084F63 /* Pods-RxTest.release.xcconfig */,
+			);
+			name = "Pods-RxTest";
+			path = "Target Support Files/Pods-RxTest";
+			sourceTree = "<group>";
+		};
+		FA2C1C22D46C2917FFE89CE3CEEDF45D /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				A91A0C6FC5F8C7BEFDF97C0762D5E90F /* Storyboard */,
+				101E07D0BC4E008C27630BA0061D872D /* Support Files */,
+				32FF065B772B0F44B365D4D2A3E011B2 /* View */,
+			);
+			name = Reusable;
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5059B85C05A145EDCA5AB596E9EFFFAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DF72EBDA2583D69CCA0954BF8A7D7B /* Reusable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A29BBE954CF3B46B50D535A8D93895 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A58C42CAF68BBBE9F8F4E858936D69 /* Caishen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCD1CCB6C45BD772F1DAAA71DC27427 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D871FE56296BAC76E9980A55B2884BA7 /* Pods-RxTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		542460E7CDF2A9D5B2ECB5F8CE549E34 /* Reusable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B6D84601F69DC7CE866EBFC991FB84 /* Build configuration list for PBXNativeTarget "Reusable" */;
+			buildPhases = (
+				5059B85C05A145EDCA5AB596E9EFFFAD /* Headers */,
+				CC543DAFC4864BFB541A1D715EB50238 /* Sources */,
+				DDE6DD853DA6F2B83A6CBD90D388D229 /* Frameworks */,
+				15EDE8EDF958905973A33DEFE925091C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reusable;
+			productName = Reusable;
+			productReference = A0ABA07B4D48354ED3F51C2D6AF5426B /* Reusable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EA78C71A58774F0212466C4E0648E1F /* Caishen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C693969E7502A3E5E5210E14F5977D /* Build configuration list for PBXNativeTarget "Caishen" */;
+			buildPhases = (
+				72A29BBE954CF3B46B50D535A8D93895 /* Headers */,
+				22E62BF8200DFE35FB60D58F541A90C3 /* Sources */,
+				0F000C864D6E147C7AF292551FEB1751 /* Frameworks */,
+				A1A87517CE1B00D0E284763E86D322A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caishen;
+			productName = Caishen;
+			productReference = 1215C192EABF5B497257CF3D171A9ECA /* Caishen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2902D6BCBD4686B27C834E3CC813712 /* Pods-RxTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F007E11975D11314C11E2F3FC5966B /* Build configuration list for PBXNativeTarget "Pods-RxTest" */;
+			buildPhases = (
+				7DCD1CCB6C45BD772F1DAAA71DC27427 /* Headers */,
+				A067077B1A763B1EDFB078FFCC1A8AE0 /* Sources */,
+				E5F25CD1501EBFFD709EED6ECD8CAE48 /* Frameworks */,
+				13DFB9916F26FEB0D6D62D088BC15E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1747D489D96B868B3E0ABC7DE28B509A /* PBXTargetDependency */,
+				5C721113F4448370AC8C0B2403400DAB /* PBXTargetDependency */,
+				DCFA53BDDFE146186F54471DE9B069B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-RxTest";
+			productName = "Pods-RxTest";
+			productReference = C7D6C8E70B5FA70EB4878414B1C9E061 /* Pods_RxTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 85E032BBD6E22560666EDF7DAF9FFA01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EA78C71A58774F0212466C4E0648E1F /* Caishen */,
+				D2902D6BCBD4686B27C834E3CC813712 /* Pods-RxTest */,
+				542460E7CDF2A9D5B2ECB5F8CE549E34 /* Reusable */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13DFB9916F26FEB0D6D62D088BC15E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EDE8EDF958905973A33DEFE925091C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A87517CE1B00D0E284763E86D322A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908B5D982469F4E6612F2FD00F2D515 /* de.lproj in Resources */,
+				FFD1132DB6BFE229E9C9DDFD52E83FAE /* en.lproj in Resources */,
+				0E5559528AEBBEE43E851F5A3058C383 /* Media.xcassets in Resources */,
+				913CB3774C4AC18AC1D07E181129D149 /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E62BF8200DFE35FB60D58F541A90C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C54DC19FD4A401493A2CB2303C6AFBC /* AmericanExpress.swift in Sources */,
+				E7561B8487D949512779D9D678DAB395 /* AutoCompletingTextField.swift in Sources */,
+				CD0F2720A96458121E477289CA70A221 /* Caishen-dummy.m in Sources */,
+				C74344312EAFA7EF511DBC6AE16AB3CC /* Card.swift in Sources */,
+				6AC0DE2F73321AE6B1FFA714DB07CA93 /* CardInfoTextFieldDelegate.swift in Sources */,
+				EEB5B2F1C2C11304F289F4D71F4FFA88 /* CardNumberFormatter.swift in Sources */,
+				90BA9F6E75501267709573D2BF6CA959 /* CardTextField+CardInfoTextFieldDelegate.swift in Sources */,
+				66482E843E7E149594672BB7EC0BDB8F /* CardTextField+InterfaceBuilder.swift in Sources */,
+				30789168C98BA343ED77F7A1A78E271E /* CardTextField+PrefillInformation.swift in Sources */,
+				F07816B015F6BAF6E82EF2096DB05E8D /* CardTextField+ViewAnimations.swift in Sources */,
+				3165A76FAD50131D7524CD3E8DA54C15 /* CardTextField.swift in Sources */,
+				5A099A9A2B53D617150DA84B7CF3B3EA /* CardTextFieldDelegate.swift in Sources */,
+				278C064EDDB595AB34A0B1CED974322A /* CardType.swift in Sources */,
+				123C614C89A52F61D2ED963763296676 /* CardTypeImageStore.swift in Sources */,
+				6E6B668F0D3D34D20806A891C37F053A /* CardTypeRegister.swift in Sources */,
+				012033551725C2F01A197D053D78A748 /* CardValidationResult.swift in Sources */,
+				50EEDAD4ECC0BDDF23FBB27648D6A7FA /* CardView.xib in Sources */,
+				0CC4F929A53DFA2752DF801C4556E496 /* CharacterExtension.swift in Sources */,
+				D78C431ED074455B2B5DE0BD96D3E3F5 /* ChinaUnionPay.swift in Sources */,
+				D5C2F995C60BB3D02A58A7A19450D1CA /* CVC.swift in Sources */,
+				57DF8EBA4704F40CB5E1892B6A853921 /* CVCInputTextField.swift in Sources */,
+				712DEFCF72D36D76C414BB61FBC02FD3 /* DetailInputTextField.swift in Sources */,
+				48FCFD239F1521852699F63C0F073A71 /* DinersClub.swift in Sources */,
+				F12BD80AD1317E88CD9361216F73A326 /* Discover.swift in Sources */,
+				4E2F812F6F758FCD5DAFFEAA4A1478FE /* Expiry.swift in Sources */,
+				D55E5560DF3708595B136C1CED4D388D /* JCB.swift in Sources */,
+				38162C649E54FF6AAD58CCBD16647255 /* Localization.swift in Sources */,
+				E80CF919F9CC57025E93A13E9A868A53 /* MasterCard.swift in Sources */,
+				1C41ACFB7E9D0A066C14BE36BF960B54 /* MonthInputTextField.swift in Sources */,
+				918981541010C14D97BD013D4C5F6B6D /* Number.swift in Sources */,
+				FEB59C0511460C7B1DC500618CB44F84 /* NumberInputTextField.swift in Sources */,
+				F83556D1F1B9B3E6C25DE5EFC84F8AC1 /* NumberInputTextFieldDelegate.swift in Sources */,
+				3BD7D9D61C6380F99F4994EC44D7F4DE /* StringExtension.swift in Sources */,
+				855F5B2219B7C339B734FBB52F46D672 /* StylizedTextField.swift in Sources */,
+				8D031EE541FA742DA6EBF9CD49B92CFD /* TextFieldValidation.swift in Sources */,
+				B1377677CD2FE4751CC5290120438DC0 /* UITextField+Extensions.swift in Sources */,
+				822D9F9B0F62A1D11F8112FAA36DF430 /* UnknownCardType.swift in Sources */,
+				7348687D90334F9077EB329B77FFEDBD /* Visa.swift in Sources */,
+				1CC1A8B9F9CE2B036457396EA469785D /* YearInputTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A067077B1A763B1EDFB078FFCC1A8AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CF770016A9C695E5FEA6B4289DF3BE /* Pods-RxTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC543DAFC4864BFB541A1D715EB50238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0865A620B9D3D36515646DF935F992 /* NibLoadable.swift in Sources */,
+				6F94A9BECCFC97E0AA3C5DDDAD458993 /* NibOwnerLoadable.swift in Sources */,
+				2220BB7369ACCB812C7F44C2D0A83E44 /* Reusable-dummy.m in Sources */,
+				C4B25C532FFBDC292B2C6AB7E8B50034 /* Reusable.swift in Sources */,
+				9E2CA4DB9FD617A641733C5045BD32D8 /* StoryboardBased.swift in Sources */,
+				AB75298A1016565EAB18C81AA9EAF105 /* StoryboardSceneBased.swift in Sources */,
+				45ED087737B0389E0A114182AE58EA90 /* UICollectionView+Reusable.swift in Sources */,
+				0D59D080978F86C7EBA728D2DC11B3A9 /* UITableView+Reusable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1747D489D96B868B3E0ABC7DE28B509A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Caishen;
+			target = 9EA78C71A58774F0212466C4E0648E1F /* Caishen */;
+			targetProxy = 70388ECE11155BE278CF68E422169CCB /* PBXContainerItemProxy */;
+		};
+		5C721113F4448370AC8C0B2403400DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reusable;
+			target = 542460E7CDF2A9D5B2ECB5F8CE549E34 /* Reusable */;
+			targetProxy = 85997053C078BB12749E89292385025A /* PBXContainerItemProxy */;
+		};
+		DCFA53BDDFE146186F54471DE9B069B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = B6CAB5AED89B02E74F6CC04A390BABD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28D243F7C25541A3464171626100067F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E6B79A0328F0946FE4EF56B1A6B293 /* Reusable.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reusable/Reusable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reusable/Reusable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Reusable/Reusable.modulemap";
+				PRODUCT_MODULE_NAME = Reusable;
+				PRODUCT_NAME = Reusable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F368177D355F3A2B1F2E2244B6BAADD /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DD740115BE746C8DBB7753806D85D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339AF92B6C34300EF532F1F36D72F6F2 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7C61BC6D6DB59B8AC77B37675BB812CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7265492CE8CA5BE24AA43A78C342DE50 /* Caishen.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Caishen/Caishen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Caishen/Caishen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Caishen/Caishen.modulemap";
+				PRODUCT_MODULE_NAME = Caishen;
+				PRODUCT_NAME = Caishen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B643A04F9B75DA3A327D41155E3FE24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEF7B7CC0F895ACF31CABD1BE1C7D01 /* Reusable.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reusable/Reusable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reusable/Reusable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Reusable/Reusable.modulemap";
+				PRODUCT_MODULE_NAME = Reusable;
+				PRODUCT_NAME = Reusable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7C7EDA8272199568B26890451C6F40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FD2C6E118F00340319CC200D3A38C8 /* Caishen.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Caishen/Caishen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Caishen/Caishen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Caishen/Caishen.modulemap";
+				PRODUCT_MODULE_NAME = Caishen;
+				PRODUCT_NAME = Caishen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C64B28D1420CDBC3868134030D9CA5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368B9CA14463D3788B022BFCA5BAB146 /* Pods-RxTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxTest/Pods-RxTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RxTest/Pods-RxTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD6480E5368C25FAF35D17B7DD9D3AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ACD42EB5F249FE9A5C7982F49084F63 /* Pods-RxTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxTest/Pods-RxTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RxTest/Pods-RxTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B6D84601F69DC7CE866EBFC991FB84 /* Build configuration list for PBXNativeTarget "Reusable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B643A04F9B75DA3A327D41155E3FE24A /* Debug */,
+				28D243F7C25541A3464171626100067F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C693969E7502A3E5E5210E14F5977D /* Build configuration list for PBXNativeTarget "Caishen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C61BC6D6DB59B8AC77B37675BB812CD /* Debug */,
+				B7C7EDA8272199568B26890451C6F40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F007E11975D11314C11E2F3FC5966B /* Build configuration list for PBXNativeTarget "Pods-RxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64B28D1420CDBC3868134030D9CA5E9 /* Debug */,
+				CD6480E5368C25FAF35D17B7DD9D3AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */,
+				55DD740115BE746C8DBB7753806D85D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
