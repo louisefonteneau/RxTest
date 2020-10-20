@@ -35,7 +35,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        modalInitTopConstraint.constant = view.frame.height
         setUpHomeScreen()
         configureContainerView()
     }
@@ -61,6 +60,7 @@ class ViewController: UIViewController {
     }
 
     private func configureContainerView() {
+        modalInitTopConstraint.constant = view.frame.height
         contentContainerView.layer.cornerRadius = 24
         storylyTopView.backgroundColor = UIColor(red: 231 / 255, green: 0 / 255, blue: 76 / 255, alpha: 1)
         storylyTopView.layer.cornerRadius = 29
