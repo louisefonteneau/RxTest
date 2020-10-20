@@ -14,6 +14,7 @@ let locale: Locale = .it
 class ViewController: UIViewController {
 
     @IBOutlet weak var modalTopConstraint: NSLayoutConstraint!
+    @IBOutlet weak var modalInitTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var storylyTopViewLabel: UILabel!
     @IBOutlet weak var storylyTopView: UIView!
     @IBOutlet weak var contentContainerView: UIView!
@@ -34,6 +35,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        modalInitTopConstraint.constant = view.frame.height
         setUpHomeScreen()
         configureContainerView()
     }
