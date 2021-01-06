@@ -1,8 +1,36 @@
 {
-  "names": [
-    "coucou",
-    "titi",
-    "tata",
-    "toto"
+  "animals": [
+    {
+      "name": "Cochon",
+      "emoji": "🐷"
+    },
+    {
+      "name": "Tortue",
+      "emoji": "🐢"
+    },
+    {
+      "name": "Girafe",
+      "emoji": "🦒"
+    },
+    {
+      "name": "Poule",
+      "emoji": "🐔"
+    },
+    {
+      "name": "Chien",
+      "emoji": "🐶"
+    },
+    {
+      "name": "Licorne",
+      "emoji": "🦄"
+    },
+    {
+      "name": "Chat",
+      "emoji": "🐱"
+    },
+    {
+      "name": "Dinosaure",
+      "emoji": "🦖"
+    }
   ]
 }
